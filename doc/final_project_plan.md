@@ -21,15 +21,23 @@ There are several possible limitations with this data set as it relates to the a
 
 Another potential limitation is that because all of the questions in the survey were voluntary, and the survey was quite lengthy, there may be many missing values. Missing data on participation in various activities may be easier to deal with depending on which activities I choose to focus the analysis on, but missing data on demographics like gender and race identification would require me to discard the entire observation for this analysis.
 
- - binary gender, as determined by interviewer. only male/female/don't know. study methodology did not discuss this limitation
+Finally, this data set has significant limitations for any gender analysis (see plan below) due to how gender information was collected. Rather than being asked as a question in which participants could self-identify, gender was determined by the interviewer presumably based on the participant's voice. Additionally, while this isn't discussed explicitly in the survey methodology, it appears based on the data that only binary options were used (the data contains only "male", "female" and "don't know"). This is problematic not only because it excludes transgender people entirely from the results, but also because it potentially misclassifies people's gender by basing the classification on a trait (voice) that is not necessarily an accurate predictor of the gender someone identifies with.
 
 
 ## Research Questions
+At a high level, I plan to do a statistical analysis of diversity in participation in various outdoor recreational activities. 
 
 #### Racial Diversity
+My first research question will focus on how the results of the survey varied by self-identified race. Specifically, is there a statistically significant difference in the participation in various activities of white versus non-white respondents? And if non-white respondents were less likely to participate in certain activities, by how much? This will build off of SCORP's final report, which did some cursory analysis of diveristy based solely on the percent of white and non-white respondents who reportedly engaged in certain activities (3); there was no statistical analysis or visualization of the results in the report. Additionally, I will complete this analysis for each racial group included in the survey, as opposed to just white or non-white.
+
+To do this analysis I plan to use a 2-sample Z-test. Note that I am assuming based on the number of survey respondents that my 'n' for each group will be sufficiently large even after cleaning the data; however, if it is not I can use a 2-sample t-test with a different test statistic. My null hypothesis will be that there is no difference in participation between white respondents and respondents of each other race. I will use a p-value of 0.05. For this analysis I will have to assume that the populations are normally distributed and that there are equal variances between each group; this may not actually be the case, but it should be an okay assumption for my purposes here (simply trying to get a ballpark sense of the differences).
+
+I also plan to create some basic visualizations of the survey results, broken down by race.
 
 #### Gender Diversity
+Building off of the question discussed above for racial diversity, I plan for my second research question to be 'how does participation in outdoor recreation vary by gender?'. More specifically, are women more or less likely to participate in certain activities than men, and by how much? While this won't be truly representative of gender diversity in outdoor recreation due to the limitations described in the Data section above, I hope that it will at least give a ballpark idea of the extent of female participation. Even with significant limitations, I would still like to include this analysis since, as someone who identifies as female and participates extensively in outdoor activities, I am highly aware of the gender gap (the "shrink it and pink it" mantra of many gear makers is one particular constant annoyance of mine) and am passionate about making the outdoors more inclusive to gender minorities.
 
+Similar to the analysis of race, the SCORP survey report gave a cursory analysis of particular activities with a marked difference between male and female participation (3), but did not go beyond that to include any statistical analysis. Here I plan to do the same analysis described above in the Racial Diversity section, but using 'male' and 'female' participants as the different categories.
 
 ## Tools
 I plan to use python to complete all data processing and analysis for this project. The final deliverable will be a jupyter notebook containing all python code, results, and markdown annotation. Code comments and descriptions within the notebook will be sufficient to ensure complete reproducibility.
