@@ -2,7 +2,7 @@
 ## Analysis of Outdoor Recreation Participation Diversity in Washington
 Kenten Danas, Univeristy of Washington DATA 512, Autumn 2018
 
-## Introduction
+## Background
 
 ## Repository Structure
 
@@ -12,6 +12,6 @@ Kenten Danas, Univeristy of Washington DATA 512, Autumn 2018
 
 ## Results
 
-## Acknowledgements
+## Future Work
 
 For more information, please contact Kenten Danas at kentdanas@gmail.com
