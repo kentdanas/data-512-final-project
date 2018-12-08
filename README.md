@@ -39,9 +39,22 @@ data-512-final-project/
 ## Analysis
 
 ## Results
+Results from the data visualization portion of this analysis can be found in the results/ folder of this repository. Results from the two-sided hypothesis and chi-squared tests for differences between the population proportions are shown in the following table:
 
+| Population 1 | Population 2 | p-value | 
+|--------------|--------------|---------|
+|Male|Female| 0.025|
+|White|Asian| 0.353|
+|White|Hispanic/Latino| 0.086|
+|White|American Indian/AK Native| 0.400|
+|White|Black| 0.015|
+|White|Haw/Pacific Islander| 0.788|
+|White|Other| 0.277|
+|White|Two or More| 0.534|
+
+A full discussion of these results and their implications can be found in the project report (wa_outdoor_recreation_analysis.ipynb).
 
 ## Acknowledgements
 I'd like to extend thanks to the University of Washington DATA 512 course instructors, Jonathan Morgan and Os Keyes, for providing guidance throughout this project. More information on the course can be found here: https://wiki.communitydata.cc/Human_Centered_Data_Science_(Fall_2018)
 
-For more information, please contact Kenten Danas at kentdanas@gmail.com
+For more information about this project, please contact Kenten Danas at kentdanas@gmail.com
