@@ -77,4 +77,4 @@ A full discussion of these results and their implications can be found in the pr
 ## Acknowledgements
 I'd like to extend thanks to the University of Washington DATA 512 course instructors, Jonathan Morgan and Os Keyes, for providing guidance throughout this project and throughout the course. More information on the course can be found here: https://wiki.communitydata.cc/Human_Centered_Data_Science_(Fall_2018)
 
-For more information about this project, please contact Kenten Danas at kentdanas@gmail.com
+For any questions about this project, please contact Kenten Danas at kentdanas@gmail.com
